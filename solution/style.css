@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+.text-center { float: center; }
+.text-left { float: left; }
+.text-right { float: right; }
+
+button,
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+body {
+  font: 16px/30px Arial;
+  color: #333;
+}
+
+header,
+.container,
+footer {
+}
+
+.inner {
+  width: 840px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #ccc;
+  border-bottom: 4px solid #555;
+}
+
+.search {
+  width: 300px;
+}
+
+.calendar {
+  margin: 20px 0;
+}
+.calendar .cell {
+  width: calc(100% / 7);
+  min-height: 100px;
+  display: inline-block;
+  border-bottom: 1px solid #222;
+  border-right: 1px solid #222;
+}
